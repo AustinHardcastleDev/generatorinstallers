@@ -1,0 +1,1052 @@
+{
+  "tn": {
+    "marketOverview": "Tennessee (Mid-South) is a mixed standby market. Fuel mix is split: utility gas 30.2%, electric 64.6%, propane 3.3% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Tennessee electricity customers averaged 4.6 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms, tornado, wind. This directory lists 220 researched installers with website generator signal (167 with a dedicated generator page, 15 with repeated signal, 38 with at least one clear mention). That is a solid market by national listing volume, ranking #18 of 50. Top city clusters in the directory: Nashville (22), Knoxville (18), Memphis (12), Bartlett (6).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2017 + TN amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Tennessee is still on the 2017 NEC with amendments, so cite the AHJ edition rather than assuming 2023 section numbers. Ice, tornado, and wind drive Mid-South outages more than coastal hurricanes. Use the 220 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 30.2,
+      "propanePct": 3.3,
+      "electricPct": 64.6,
+      "fuelOilPct": 0.2,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 4.6,
+      "dominantDriver": "Ice storms, tornado, wind"
+    },
+    "necEdition": "2017 + TN amend.",
+    "licensingNote": "Board for Licensing Contractors; journeyman local",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901472+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "al": {
+    "marketOverview": "Alabama (Gulf Coast / Mid-South) is a mixed standby market. Fuel mix is split: utility gas 25.9%, electric 67.5%, propane 4.9% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Alabama electricity customers averaged 4.7 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricanes inland + tornado/severe. This directory lists 190 researched installers with website generator signal (143 with a dedicated generator page, 6 with repeated signal, 41 with at least one clear mention). That is a solid market by national listing volume, ranking #20 of 50. Top city clusters in the directory: Birmingham (13), Mobile (11), Daphne (9), Huntsville (6).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 190 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 25.9,
+      "propanePct": 4.9,
+      "electricPct": 67.5,
+      "fuelOilPct": 0.1,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 4.7,
+      "dominantDriver": "Hurricanes inland + tornado/severe"
+    },
+    "necEdition": "2020",
+    "licensingNote": "State electrical contractor license (AL Board of Electrical Contractors) \u2014 details unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901769+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ky": {
+    "marketOverview": "Kentucky (Mid-South) is a mixed standby market. Fuel mix is split: utility gas 34.6%, electric 55.4%, propane 6.6% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Kentucky electricity customers averaged 10.8 hours without power (above the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms, tornado, flooding. This directory lists 153 researched installers with website generator signal (99 with a dedicated generator page, 19 with repeated signal, 35 with at least one clear mention). That is a solid market by national listing volume, ranking #26 of 50. Top city clusters in the directory: Louisville (25), Lexington (15), Elizabethtown (4), Bowling Green (4).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 153 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 34.6,
+      "propanePct": 6.6,
+      "electricPct": 55.4,
+      "fuelOilPct": 0.6,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 10.8,
+      "dominantDriver": "Ice storms, tornado, flooding"
+    },
+    "necEdition": "2023",
+    "licensingNote": "State electrical licensing (Dept. of Housing) \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901779+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ms": {
+    "marketOverview": "Mississippi (Gulf Coast) is a mixed standby market. Fuel mix is split: utility gas 30.5%, electric 57.8%, propane 9.8% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Mississippi electricity customers averaged 9.5 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricanes + tornado. This directory lists 94 researched installers with website generator signal (67 with a dedicated generator page, 4 with repeated signal, 23 with at least one clear mention). That is a moderate market by national listing volume, ranking #35 of 50. Top city clusters in the directory: Meridian (4), Gulfport (4), Biloxi (3), Tupelo (3).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): None statewide (local). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Mississippi has no statewide NEC adoption. Contractor licensing is state-level while journeyman rules are local. Rural propane share (9.8%) is meaningful beside electric heat. Use the 94 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 30.5,
+      "propanePct": 9.8,
+      "electricPct": 57.8,
+      "fuelOilPct": 0.1,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 9.5,
+      "dominantDriver": "Hurricanes + tornado"
+    },
+    "necEdition": "None statewide (local)",
+    "licensingNote": "State contractor license; journeyman licensing local",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901786+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ga": {
+    "marketOverview": "Georgia (South Atlantic) is a mixed standby market. Fuel mix is split: utility gas 37.4%, electric 57.6%, propane 3.6% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Georgia electricity customers averaged 20.5 hours without power (more than double the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricanes inland + ice (n. ga). This directory lists 285 researched installers with website generator signal (223 with a dedicated generator page, 18 with repeated signal, 44 with at least one clear mention). That is a solid market by national listing volume, ranking #11 of 50. Top city clusters in the directory: Atlanta (8), Lawrenceville (7), Marietta (6), Augusta (6).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Georgia's 2024 SAIDI was 20.5 hours, with Helene driving inland outages far from the coast. Gas share (37.4%) is higher than Florida's, so metro Atlanta often looks like a gas install while rural counties lean propane. Use the 285 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 37.4,
+      "propanePct": 3.6,
+      "electricPct": 57.6,
+      "fuelOilPct": 0.2,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 20.5,
+      "dominantDriver": "Hurricanes inland + ice (N. GA)"
+    },
+    "necEdition": "2023",
+    "licensingNote": "State electrical contractor license via SCILB; no statewide journeyman license",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901793+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "sc": {
+    "marketOverview": "South Carolina (South Atlantic) is a mixed standby market. Fuel mix is split: utility gas 25.1%, electric 69.7%, propane 3.2% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, South Carolina electricity customers averaged 52.3 hours without power (more than double the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricanes + ice. This directory lists 235 researched installers with website generator signal (178 with a dedicated generator page, 17 with repeated signal, 40 with at least one clear mention). That is a solid market by national listing volume, ranking #16 of 50. Top city clusters in the directory: Greenville (25), Columbia (12), Myrtle Beach (10), Greer (8).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020 + SC amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "South Carolina customers averaged 52.3 hours without power in 2024, more than five times the 10.2-hour national average, after Helene produced a peak of about 1.37 million outages in-state. Fuel mix is electric-heavy (69.7%), so propane runtime and refill logistics matter as much as electrical scope. Use the 235 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 25.1,
+      "propanePct": 3.2,
+      "electricPct": 69.7,
+      "fuelOilPct": 0.4,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 52.3,
+      "dominantDriver": "Hurricanes + ice"
+    },
+    "necEdition": "2020 + SC amend.",
+    "licensingNote": "State contractor license; journeyman local",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901799+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "nc": {
+    "marketOverview": "North Carolina (South Atlantic) is a mixed standby market. Fuel mix is split: utility gas 25.0%, electric 66.0%, propane 5.4% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, North Carolina electricity customers averaged 24.0 hours without power (more than double the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricanes (coast + mountain flooding), ice. This directory lists 371 researched installers with website generator signal (261 with a dedicated generator page, 38 with repeated signal, 72 with at least one clear mention). That is a solid market by national listing volume, ranking #6 of 50. Top city clusters in the directory: Wilmington (19), Charlotte (16), Raleigh (16), Durham (9).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020 + NC amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "North Carolina posted 24.0 average outage hours in 2024 and took a major inland hit from Helene. Electric heat dominates (66.0%), so many standby installs are propane even when a gas main exists nearby. Confirm fuel and flood/elevation rules at the AHJ. Use the 371 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 25.0,
+      "propanePct": 5.4,
+      "electricPct": 66.0,
+      "fuelOilPct": 1.6,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 24.0,
+      "dominantDriver": "Hurricanes (coast + mountain flooding), ice"
+    },
+    "necEdition": "2020 + NC amend.",
+    "licensingNote": "State Board of Examiners of Electrical Contractors licenses contractors; no state journeyman license",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901805+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "fl": {
+    "marketOverview": "Florida (South Atlantic / Gulf) is a propane or electric first standby market. Only 5.9% of homes heat with utility gas while 89.7% heat with electricity (ACS 2024), which is why most Florida standby generators run on propane even when buyers do not think of themselves as propane households. In 2024, Florida electricity customers averaged 22.0 hours without power (more than double the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricanes. This directory lists 601 researched installers with website generator signal (475 with a dedicated generator page, 44 with repeated signal, 82 with at least one clear mention). That is a deep market by national listing volume, ranking #1 of 50. Top city clusters in the directory: Tampa (36), Miami (27), Jacksonville (23), Orlando (20).",
+    "costContext": "Budget for propane tank, pad, and refill logistics in addition to the electrical package; gas-line savings rarely apply. BLS May 2023 mean electrician wage in Florida was about $25.18/hr, a labor proxy rather than a published installed-cost average. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Florida's 2024 HOA statute treats exterior fixed generators and fuel storage tanks as hurricane protection, so a conforming application cannot be denied under Fla. Stat. \u00a7720.3035. Florida Building Code Residential M1905.2.4 also requires wind design at a minimum 120 mph ultimate design wind speed for exposed units, with engineer certification when the manufacturer does not specify anchoring. Miami-Dade and Broward add High-Velocity Hurricane Zone product rules that do not automatically apply statewide. Use the 601 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 5.9,
+      "propanePct": 0.9,
+      "electricPct": 89.7,
+      "fuelOilPct": 0.2,
+      "bucket": "propane-or-electric-first"
+    },
+    "outage": {
+      "saidi2024Hours": 22.0,
+      "dominantDriver": "Hurricanes"
+    },
+    "necEdition": "2020",
+    "licensingNote": "DBPR Electrical Contractors' Licensing Board (EC + specialty); local journeyman cards",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901811+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "la": {
+    "marketOverview": "Louisiana (Gulf Coast) is a mixed standby market. Fuel mix is split: utility gas 33.0%, electric 63.7%, propane 2.0% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Louisiana electricity customers averaged 12.1 hours without power (above the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricanes. This directory lists 260 researched installers with website generator signal (206 with a dedicated generator page, 18 with repeated signal, 36 with at least one clear mention). That is a solid market by national listing volume, ranking #13 of 50. Top city clusters in the directory: Baton Rouge (19), Shreveport (18), New Orleans (12), Houma (9).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Louisiana's hazard profile is multi-day hurricane outages. LSLBC electrical classification is required when work value exceeds $10,000. Natural gas is common in metros; rural south Louisiana often needs propane with tank logistics after flooding. Use the 260 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 33.0,
+      "propanePct": 2.0,
+      "electricPct": 63.7,
+      "fuelOilPct": 0.1,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 12.1,
+      "dominantDriver": "Hurricanes"
+    },
+    "necEdition": "2020",
+    "licensingNote": "LSLBC \"Electrical\" classification required when work value exceeds $10,000",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901817+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ar": {
+    "marketOverview": "Arkansas (Mid-South) is a mixed standby market. Fuel mix is split: utility gas 36.6%, electric 54.1%, propane 5.9% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Arkansas electricity customers averaged 8.5 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms + severe/tornado. This directory lists 123 researched installers with website generator signal (89 with a dedicated generator page, 9 with repeated signal, 25 with at least one clear mention). That is a moderate market by national listing volume, ranking #30 of 50. Top city clusters in the directory: Little Rock (10), Hot Springs (6), Springdale (5), North Little Rock (5).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 123 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 36.6,
+      "propanePct": 5.9,
+      "electricPct": 54.1,
+      "fuelOilPct": 0.1,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 8.5,
+      "dominantDriver": "Ice storms + severe/tornado"
+    },
+    "necEdition": "2020",
+    "licensingNote": "State electrical licensing (Dept. of Labor) \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901822+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "va": {
+    "marketOverview": "Virginia (South Atlantic) is a mixed standby market. Fuel mix is split: utility gas 32.6%, electric 57.7%, propane 4.3% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Virginia electricity customers averaged 7.0 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricane remnants, ice, severe. This directory lists 292 researched installers with website generator signal (203 with a dedicated generator page, 24 with repeated signal, 65 with at least one clear mention). That is a solid market by national listing volume, ranking #10 of 50. Top city clusters in the directory: Richmond (16), Chesapeake (15), Fredericksburg (13), Manassas (12).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 292 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 32.6,
+      "propanePct": 4.3,
+      "electricPct": 57.7,
+      "fuelOilPct": 2.7,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 7.0,
+      "dominantDriver": "Hurricane remnants, ice, severe"
+    },
+    "necEdition": "2020",
+    "licensingNote": "DPOR tradesman/contractor licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901828+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "wv": {
+    "marketOverview": "West Virginia (Appalachia) is a mixed standby market. Fuel mix is split: utility gas 39.4%, electric 48.2%, propane 5.0% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, West Virginia electricity customers averaged 19.4 hours without power (above the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms, tree fall, remnants. This directory lists 72 researched installers with website generator signal (47 with a dedicated generator page, 7 with repeated signal, 18 with at least one clear mention). That is a moderate market by national listing volume, ranking #37 of 50. Top city clusters in the directory: Morgantown (6), Charleston (5), Elkins (4), Beckley (3).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020 + WV amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "West Virginia's 2024 SAIDI was 19.4 hours, and non-major-event duration is among the worst nationally, meaning routine reliability is part of the story, not only named storms. Confirm local licensing through the State Fire Marshal path. Use the 72 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 39.4,
+      "propanePct": 5.0,
+      "electricPct": 48.2,
+      "fuelOilPct": 1.8,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 19.4,
+      "dominantDriver": "Ice storms, tree fall, remnants"
+    },
+    "necEdition": "2020 + WV amend.",
+    "licensingNote": "State Fire Marshal electrician licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901833+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ok": {
+    "marketOverview": "Oklahoma (Southern Plains) is a mixed standby market. Fuel mix is split: utility gas 49.6%, electric 41.9%, propane 6.2% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Oklahoma electricity customers averaged 4.5 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms, severe/tornado. This directory lists 150 researched installers with website generator signal (112 with a dedicated generator page, 11 with repeated signal, 27 with at least one clear mention). That is a solid market by national listing volume, ranking #27 of 50. Top city clusters in the directory: Tulsa (22), Oklahoma City (13), Edmond (9), Moore (6).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 150 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 49.6,
+      "propanePct": 6.2,
+      "electricPct": 41.9,
+      "fuelOilPct": 0.2,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 4.5,
+      "dominantDriver": "Ice storms, severe/tornado"
+    },
+    "necEdition": "2023",
+    "licensingNote": "CIB electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901838+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "mo": {
+    "marketOverview": "Missouri (Midwest) is a mixed standby market. Fuel mix is split: utility gas 49.0%, electric 39.2%, propane 8.5% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Missouri electricity customers averaged 3.7 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms, severe/tornado. This directory lists 170 researched installers with website generator signal (122 with a dedicated generator page, 14 with repeated signal, 34 with at least one clear mention). That is a solid market by national listing volume, ranking #23 of 50. Top city clusters in the directory: Kansas City (12), St. Louis (12), Lee's Summit (6), St Peters (6). Louis (13), Lee's Summit (6), St Peters (6).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): None statewide (local). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Missouri's statewide electrical contractor license is optional under \u00a7324.920 RSMo; local licenses usually govern. There is also no statewide NEC adoption. Ask which city or county license covers your install address. Use the 170 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 49.0,
+      "propanePct": 8.5,
+      "electricPct": 39.2,
+      "fuelOilPct": 0.1,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 3.7,
+      "dominantDriver": "Ice storms, severe/tornado"
+    },
+    "necEdition": "None statewide (local)",
+    "licensingNote": "Statewide electrical contractor license is optional (\u00a7324.920 RSMo); local licenses govern",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901844+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "tx": {
+    "marketOverview": "Texas (Texas / Gulf) is a mixed standby market. Fuel mix is split: utility gas 35.4%, electric 60.5%, propane 2.7% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Texas electricity customers averaged 21.2 hours without power (more than double the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: hurricanes, derechos, winter events (ercot). This directory lists 540 researched installers with website generator signal (422 with a dedicated generator page, 42 with repeated signal, 76 with at least one clear mention). That is a deep market by national listing volume, ranking #2 of 50. Top city clusters in the directory: Houston (46), Austin (18), Spring (14), Tyler (13).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. BLS May 2023 mean electrician wage in Texas was about $27.09/hr, a labor proxy rather than a published installed-cost average. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Texas Property Code \u00a7202.019 blocks an HOA from prohibiting a permanently installed standby generator, and location rules that raise install cost more than 10% (or fuel/electrical connection cost more than 20%) are unenforceable. Propane work also needs a separate Railroad Commission of Texas LP-Gas license on top of the TDLR electrical license. Ask for both. Use the 540 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 35.4,
+      "propanePct": 2.7,
+      "electricPct": 60.5,
+      "fuelOilPct": 0.1,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 21.2,
+      "dominantDriver": "Hurricanes, derechos, winter events (ERCOT)"
+    },
+    "necEdition": "2023",
+    "licensingNote": "TDLR electrical license statewide; separate RRC LP-Gas license for propane work",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901849+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "oh": {
+    "marketOverview": "Ohio (Ohio Valley) is a natural gas first standby market. Heating fuel leans natural gas (64.0% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (5.4%). In 2024, Ohio electricity customers averaged 8.5 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: severe summer storms, ice. This directory lists 331 researched installers with website generator signal (242 with a dedicated generator page, 24 with repeated signal, 65 with at least one clear mention). That is a solid market by national listing volume, ranking #8 of 50. Top city clusters in the directory: Columbus (15), Dayton (14), Cincinnati (13), Akron (8).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2023 (res. w/ OH amend.). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Licensing note from research: OCILB electrical contractor license; residential often local. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 331 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 64.0,
+      "propanePct": 5.4,
+      "electricPct": 26.5,
+      "fuelOilPct": 1.5,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 8.5,
+      "dominantDriver": "Severe summer storms, ice"
+    },
+    "necEdition": "2023 (res. w/ OH amend.)",
+    "licensingNote": "OCILB electrical contractor license; residential often local",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901857+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "in": {
+    "marketOverview": "Indiana (Midwest) is a natural gas first standby market. Heating fuel leans natural gas (58.6% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (6.6%). In 2024, Indiana electricity customers averaged 5.2 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: severe storms, ice. This directory lists 230 researched installers with website generator signal (162 with a dedicated generator page, 25 with repeated signal, 43 with at least one clear mention). That is a solid market by national listing volume, ranking #17 of 50. Top city clusters in the directory: Indianapolis (20), Fort Wayne (12), Evansville (12), Valparaiso (6).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2008 comm. / 2017 1-2 family. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Indiana has no statewide electrician license and a mixed NEC picture (older commercial baseline, 2017 for 1-2 family in many references). Confirm the AHJ edition and local license before comparing quotes. Use the 230 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 58.6,
+      "propanePct": 6.6,
+      "electricPct": 32.1,
+      "fuelOilPct": 0.4,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 5.2,
+      "dominantDriver": "Severe storms, ice"
+    },
+    "necEdition": "2008 comm. / 2017 1\u20132 family",
+    "licensingNote": "No statewide electrician license \u2014 city/county only",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901864+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "md": {
+    "marketOverview": "Maryland (Mid-Atlantic) is a mixed standby market. Fuel mix is split: utility gas 42.9%, electric 45.4%, propane 3.7% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Maryland electricity customers averaged 2.0 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: severe summer storms, coastal. This directory lists 174 researched installers with website generator signal (134 with a dedicated generator page, 15 with repeated signal, 25 with at least one clear mention). That is a solid market by national listing volume, ranking #22 of 50. Top city clusters in the directory: Frederick (12), Gaithersburg (8), Baltimore (8), Annapolis (5).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition trackers need a local confirm (research note: 2020 (Mike Holt) / 2023 (IAEI) - conflict). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Maryland NEC edition trackers conflicted as of August 2026 (2020 vs 2023). Confirm the edition with the Department of Labor and your county before citing section numbers. Licensing is state plus county. Use the 174 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 42.9,
+      "propanePct": 3.7,
+      "electricPct": 45.4,
+      "fuelOilPct": 5.8,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 2.0,
+      "dominantDriver": "Severe summer storms, coastal"
+    },
+    "necEdition": "2020 (Mike Holt) / 2023 (IAEI) \u2014 conflict",
+    "licensingNote": "State + county electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901871+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "pa": {
+    "marketOverview": "Pennsylvania (Mid-Atlantic) is a mixed standby market. Fuel mix is split: utility gas 52.0%, electric 26.0%, propane 5.2% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Pennsylvania electricity customers averaged 5.6 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: winter storms, severe, tree fall. This directory lists 404 researched installers with website generator signal (301 with a dedicated generator page, 32 with repeated signal, 71 with at least one clear mention). That is a deep market by national listing volume, ranking #4 of 50. Top city clusters in the directory: Philadelphia (10), Lebanon (8), Broomall (6), Allentown (5).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Pennsylvania has no statewide electrician license. City and county credentials control. Fuel oil still heats 12.8% of homes, so confirm fuel path before assuming a natural-gas tap. Use the 404 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 52.0,
+      "propanePct": 5.2,
+      "electricPct": 26.0,
+      "fuelOilPct": 12.8,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 5.6,
+      "dominantDriver": "Winter storms, severe, tree fall"
+    },
+    "necEdition": "2020",
+    "licensingNote": "No statewide electrician license \u2014 city/county only",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901876+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ny": {
+    "marketOverview": "New York (Northeast) is a natural gas first standby market. Heating fuel leans natural gas (59.8% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (4.7%). In 2024, New York electricity customers averaged 3.7 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: nor'easters, lake-effect, tropical remnants. This directory lists 35 researched installers with website generator signal (27 with a dedicated generator page, 1 with repeated signal, 7 with at least one clear mention). That is a thin market by national listing volume, ranking #47 of 50. Top city clusters in the directory: Brooklyn (7), New York (6), Staten Island (4), Jamaica (3).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "New York has no single statewide electrician license; NYC and local jurisdictions license separately. Fuel oil still heats 14.6% of homes, so some installs start without gas service even in a state that is majority utility-gas overall. Use the 35 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 59.8,
+      "propanePct": 4.7,
+      "electricPct": 16.5,
+      "fuelOilPct": 14.6,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 3.7,
+      "dominantDriver": "Nor'easters, lake-effect, tropical remnants"
+    },
+    "necEdition": "2023",
+    "licensingNote": "No statewide license \u2014 NYC and local jurisdictions license",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901881+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "nj": {
+    "marketOverview": "New Jersey (Northeast corridor) is a natural gas first standby market. Heating fuel leans natural gas (74.0% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (1.9%). In 2024, New Jersey electricity customers averaged 2.9 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: coastal storms, nor'easters. This directory lists 401 researched installers with website generator signal (296 with a dedicated generator page, 25 with repeated signal, 80 with at least one clear mention). That is a deep market by national listing volume, ranking #5 of 50. Top city clusters in the directory: Scotch Plains (7), Wall Township (6), Brick Township (5), Hammonton (5).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2020 + NJ amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 401 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 74.0,
+      "propanePct": 1.9,
+      "electricPct": 16.7,
+      "fuelOilPct": 5.6,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 2.9,
+      "dominantDriver": "Coastal storms, nor'easters"
+    },
+    "necEdition": "2020 + NJ amend.",
+    "licensingNote": "Board of Examiners of Electrical Contractors \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901886+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "il": {
+    "marketOverview": "Illinois (Midwest) is a natural gas first standby market. Heating fuel leans natural gas (75.5% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (3.8%). In 2024, Illinois electricity customers averaged 2.6 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: derecho/severe summer storms. This directory lists 270 researched installers with website generator signal (204 with a dedicated generator page, 16 with repeated signal, 50 with at least one clear mention). That is a solid market by national listing volume, ranking #12 of 50. Top city clusters in the directory: Chicago (11), Bloomington (6), Woodstock (5), Naperville (5).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): None statewide (local; 2008 fallback). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Illinois has no statewide NEC adoption and no statewide electrician license. Credentials are city or county. Verifying the local license and the AHJ's adopted electrical code matters more here than in states with a single board. Use the 270 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 75.5,
+      "propanePct": 3.8,
+      "electricPct": 18.9,
+      "fuelOilPct": 0.1,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 2.6,
+      "dominantDriver": "Derecho/severe summer storms"
+    },
+    "necEdition": "None statewide (local; 2008 fallback)",
+    "licensingNote": "No statewide electrician license \u2014 city/county only",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901891+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "mi": {
+    "marketOverview": "Michigan (Great Lakes) is a natural gas first standby market. Heating fuel leans natural gas (74.8% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (8.7%). In 2024, Michigan electricity customers averaged 7.8 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms, severe wind, tree fall. This directory lists 441 researched installers with website generator signal (337 with a dedicated generator page, 35 with repeated signal, 69 with at least one clear mention). That is a deep market by national listing volume, ranking #3 of 50. Top city clusters in the directory: Kalamazoo (11), Grand Rapids (10), Livonia (10), Troy (9).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Michigan ranks near the top nationally for major weather outages (2000-2023), and the March 2025 northern Michigan ice storm left some customers out for 17-18 days. Gas heating is common (74.8%), which simplifies fuel for many suburban installs, while rural propane share stays meaningful at 8.7%. Use the 441 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 74.8,
+      "propanePct": 8.7,
+      "electricPct": 12.5,
+      "fuelOilPct": 0.8,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 7.8,
+      "dominantDriver": "Ice storms, severe wind, tree fall"
+    },
+    "necEdition": "2023",
+    "licensingNote": "LARA electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901896+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "wi": {
+    "marketOverview": "Wisconsin (Upper Midwest) is a natural gas first standby market. Heating fuel leans natural gas (64.9% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (11.7%). In 2024, Wisconsin electricity customers averaged 4.4 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: winter storms, severe wind. This directory lists 198 researched installers with website generator signal (134 with a dedicated generator page, 16 with repeated signal, 48 with at least one clear mention). That is a solid market by national listing volume, ranking #19 of 50. Top city clusters in the directory: Madison (8), Milwaukee (6), Delafield (4), Neenah (4).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2017. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Wisconsin is still on the 2017 NEC with amendments, so 2023-and-later section numbers (for example 445.19) do not map cleanly. Propane heats 11.7% of homes alongside a gas-heavy majority. Use the 198 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 64.9,
+      "propanePct": 11.7,
+      "electricPct": 18.3,
+      "fuelOilPct": 1.1,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 4.4,
+      "dominantDriver": "Winter storms, severe wind"
+    },
+    "necEdition": "2017",
+    "licensingNote": "DSPS electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901902+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "mn": {
+    "marketOverview": "Minnesota (Upper Midwest) is a natural gas first standby market. Heating fuel leans natural gas (65.3% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (10.4%). In 2024, Minnesota electricity customers averaged 3.7 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: winter storms, severe wind. This directory lists 157 researched installers with website generator signal (103 with a dedicated generator page, 11 with repeated signal, 43 with at least one clear mention). That is a solid market by national listing volume, ranking #25 of 50. Top city clusters in the directory: Duluth (6), Minneapolis (5), Rochester (4), Brooklyn Park (3).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2026. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Minnesota is on the 2026 NEC cycle and sets statewide residential noise limits (NAC-1 L50 60 daytime / 50 nighttime). Gas heating is common (65.3%), with a meaningful rural propane share (10.4%). Use the 157 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 65.3,
+      "propanePct": 10.4,
+      "electricPct": 19.9,
+      "fuelOilPct": 1.2,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 3.7,
+      "dominantDriver": "Winter storms, severe wind"
+    },
+    "necEdition": "2026",
+    "licensingNote": "DLI electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901913+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ia": {
+    "marketOverview": "Iowa (Midwest) is a natural gas first standby market. Heating fuel leans natural gas (59.7% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (12.3%). In 2024, Iowa electricity customers averaged 2.8 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: derecho, severe storms, ice. This directory lists 105 researched installers with website generator signal (62 with a dedicated generator page, 10 with repeated signal, 33 with at least one clear mention). That is a moderate market by national listing volume, ranking #34 of 50. Top city clusters in the directory: Cedar Rapids (8), Des Moines (8), Davenport (5), Grimes (4).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2023 + IA amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 105 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 59.7,
+      "propanePct": 12.3,
+      "electricPct": 25.3,
+      "fuelOilPct": 0.3,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 2.8,
+      "dominantDriver": "Derecho, severe storms, ice"
+    },
+    "necEdition": "2023 + IA amend.",
+    "licensingNote": "State Electrical Examining Board licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901930+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ca": {
+    "marketOverview": "California (West Coast) is a natural gas first standby market. Heating fuel leans natural gas (60.6% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (2.9%). In 2024, California electricity customers averaged 4.7 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: wildfire + psps. This directory lists 250 researched installers with website generator signal (178 with a dedicated generator page, 15 with repeated signal, 57 with at least one clear mention). That is a solid market by national listing volume, ranking #15 of 50. Top city clusters in the directory: San Jose (6), Los Angeles (6), Fresno (5), Grass Valley (5).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. BLS May 2023 mean electrician wage in California was about $40.54/hr, a labor proxy rather than a published installed-cost average. NEC edition in effect in this research pass (verified as of August 2026): 2023 + CA amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Public Safety Power Shutoff is a planned, repeatable outage driver here, not only storm risk. CSLB C-10 licensing applies to electrical work, and contracts of $500 or more require a license. Inside the City of Los Angeles, LAMC \u00a794.1217 can require a seismic or excess-flow gas shutoff valve when a qualifying permit is issued. Use the 250 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 60.6,
+      "propanePct": 2.9,
+      "electricPct": 30.1,
+      "fuelOilPct": 0.2,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 4.7,
+      "dominantDriver": "Wildfire + PSPS"
+    },
+    "necEdition": "2023 + CA amend.",
+    "licensingNote": "CSLB C-10 required; work \u2265$500 requires a license",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901938+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "az": {
+    "marketOverview": "Arizona (Southwest) is a mixed standby market. Fuel mix is split: utility gas 34.2%, electric 59.1%, propane 2.6% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Arizona electricity customers averaged 1.5 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: monsoon microbursts, heat. This directory lists 112 researched installers with website generator signal (76 with a dedicated generator page, 10 with repeated signal, 26 with at least one clear mention). That is a moderate market by national listing volume, ranking #32 of 50. Top city clusters in the directory: Phoenix (11), Tucson (10), Scottsdale (5), Prescott (5).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): None statewide (local). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Arizona has no statewide NEC adoption; the ROC contractor license is statewide while the electrical code edition is local. Monsoon microbursts and heat-season outages drive demand more than winter ice. Use the 112 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 34.2,
+      "propanePct": 2.6,
+      "electricPct": 59.1,
+      "fuelOilPct": 0.1,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 1.5,
+      "dominantDriver": "Monsoon microbursts, heat"
+    },
+    "necEdition": "None statewide (local)",
+    "licensingNote": "ROC contractor license statewide; NEC edition set locally",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901949+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "co": {
+    "marketOverview": "Colorado (Intermountain West) is a natural gas first standby market. Heating fuel leans natural gas (66.6% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (4.5%). In 2024, Colorado electricity customers averaged 4.3 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: high wind, spring snow, psps (new). This directory lists 181 researched installers with website generator signal (132 with a dedicated generator page, 13 with repeated signal, 36 with at least one clear mention). That is a solid market by national listing volume, ranking #21 of 50. Top city clusters in the directory: Colorado Springs (16), Denver (11), Fort Collins (9), Centennial (7).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition trackers need a local confirm (research note: 2026 (NFPA) / 2023 (Mike Holt) - conflict). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Colorado sets statewide residential noise limits by statute (55 dB(A) day / 50 dB(A) night, measured 25 feet beyond the property line). Weekly exercise cycles need a plan that respects that. NEC edition trackers conflicted as of August 2026, so confirm the edition with the State Electrical Board and your local AHJ before citing section numbers. Use the 181 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 66.6,
+      "propanePct": 4.5,
+      "electricPct": 25.5,
+      "fuelOilPct": 0.2,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 4.3,
+      "dominantDriver": "High wind, spring snow, PSPS (new)"
+    },
+    "necEdition": "2026 (NFPA) / 2023 (Mike Holt) \u2014 conflict",
+    "licensingNote": "State Electrical Board licenses electricians statewide \u2014 details unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901955+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "nm": {
+    "marketOverview": "New Mexico (Southwest) is a natural gas first standby market. Heating fuel leans natural gas (63.2% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (6.5%). In 2024, New Mexico electricity customers averaged 4.6 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: wind, wildfire. This directory lists 36 researched installers with website generator signal (27 with a dedicated generator page, 5 with repeated signal, 4 with at least one clear mention). That is a thin market by national listing volume, ranking #46 of 50. Top city clusters in the directory: Albuquerque (12), Las Cruces (3), Rio Rancho (3), Silver City (2).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 36 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 63.2,
+      "propanePct": 6.5,
+      "electricPct": 22.5,
+      "fuelOilPct": 0.1,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 4.6,
+      "dominantDriver": "Wind, wildfire"
+    },
+    "necEdition": "2020",
+    "licensingNote": "CID electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901962+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "nv": {
+    "marketOverview": "Nevada (Southwest) is a natural gas first standby market. Heating fuel leans natural gas (61.1% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (2.7%). In 2024, Nevada electricity customers averaged 2.6 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: wind, wildfire. This directory lists 60 researched installers with website generator signal (43 with a dedicated generator page, 2 with repeated signal, 15 with at least one clear mention). That is a moderate market by national listing volume, ranking #39 of 50. Top city clusters in the directory: Las Vegas (21), Sparks (9), Reno (5), Henderson (4).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): None statewide (local). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Nevada has no statewide NEC adoption; NSCB contractor licensing is statewide while the code edition is local. Planned shutoff reporting (PSOM) and wildfire wind events are part of the outage conversation. Use the 60 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 61.1,
+      "propanePct": 2.7,
+      "electricPct": 33.0,
+      "fuelOilPct": 0.3,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 2.6,
+      "dominantDriver": "Wind, wildfire"
+    },
+    "necEdition": "None statewide (local)",
+    "licensingNote": "NSCB contractor license; NEC edition set locally",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901967+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ut": {
+    "marketOverview": "Utah (Intermountain West) is a natural gas first standby market. Heating fuel leans natural gas (78.9% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (2.5%). In 2024, Utah electricity customers averaged 2.0 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: wind, winter; psps (new). This directory lists 108 researched installers with website generator signal (83 with a dedicated generator page, 5 with repeated signal, 20 with at least one clear mention). That is a moderate market by national listing volume, ranking #33 of 50. Top city clusters in the directory: Ogden (9), Orem (6), Salt Lake City (6), Sandy (5).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Utah has the highest natural-gas heating share in the country at 78.9% of occupied homes, so most installs connect to an existing meter rather than a new tank. Confirm meter capacity and gas-line sizing early; the fuel path is usually simpler than in propane-first markets. Use the 108 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 78.9,
+      "propanePct": 2.5,
+      "electricPct": 16.7,
+      "fuelOilPct": 0.1,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 2.0,
+      "dominantDriver": "Wind, winter; PSPS (new)"
+    },
+    "necEdition": "2023",
+    "licensingNote": "DOPL electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901971+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "wa": {
+    "marketOverview": "Washington (Pacific Northwest) is a mixed standby market. Fuel mix is split: utility gas 32.7%, electric 60.0%, propane 2.6% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Washington electricity customers averaged 10.4 hours without power (above the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: windstorms, ice. This directory lists 332 researched installers with website generator signal (254 with a dedicated generator page, 21 with repeated signal, 57 with at least one clear mention). That is a solid market by national listing volume, ranking #7 of 50. Top city clusters in the directory: Seattle (10), Lynnwood (10), Vancouver (10), Olympia (9).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. BLS May 2023 mean electrician wage in Washington was about $42.61/hr, a labor proxy rather than a published installed-cost average. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Washington caps residential-to-residential noise at 55 dBA and drops another 10 dBA overnight (WAC 173-60-040), so schedule exercise cycles midday. Labor is among the highest nationally (BLS May 2023 mean electrician wage $42.61/hr statewide). Coastal counties are more electric-heat than gas-heat. Use the 332 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 32.7,
+      "propanePct": 2.6,
+      "electricPct": 60.0,
+      "fuelOilPct": 0.9,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 10.4,
+      "dominantDriver": "Windstorms, ice"
+    },
+    "necEdition": "2023",
+    "licensingNote": "L&I electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901977+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "or": {
+    "marketOverview": "Oregon (Pacific Northwest) is a mixed standby market. Fuel mix is split: utility gas 37.5%, electric 54.0%, propane 1.4% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Oregon electricity customers averaged 9.8 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms, windstorms, psps. This directory lists 158 researched installers with website generator signal (115 with a dedicated generator page, 4 with repeated signal, 39 with at least one clear mention). That is a solid market by national listing volume, ranking #24 of 50. Top city clusters in the directory: Portland (20), Eugene (10), Bend (7), Redmond (6).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023 + OR amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Oregon regulates Public Safety Power Shutoff and saw long ice-storm outages in January 2024. The state is more electric-heat than gas-heat overall, so fuel path varies sharply between the Willamette Valley and rural counties. Use the 158 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 37.5,
+      "propanePct": 1.4,
+      "electricPct": 54.0,
+      "fuelOilPct": 1.2,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 9.8,
+      "dominantDriver": "Ice storms, windstorms, PSPS"
+    },
+    "necEdition": "2023 + OR amend.",
+    "licensingNote": "BCD/CCB licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901982+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ak": {
+    "marketOverview": "Alaska (Alaska) is a mixed standby market. Fuel oil still heats 27.5% of homes and utility gas only 48.3% (ACS 2024), so a standby install often forces a new fuel decision, usually propane (2.1% already heat that way). In 2024, Alaska electricity customers averaged 5.5 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: winter storms, remote grid. This directory lists 40 researched installers with website generator signal (25 with a dedicated generator page, 0 with repeated signal, 15 with at least one clear mention). That is a thin market by national listing volume, ranking #45 of 50. Top city clusters in the directory: Anchorage (9), Wasilla (5), Fairbanks (4), Palmer (4).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Alaska still heats 27.5% of homes with fuel oil and faces remote-grid winter outages. Fuel path and parts lead time often dominate the quote conversation more than brand. Use the 40 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 48.3,
+      "propanePct": 2.1,
+      "electricPct": 15.3,
+      "fuelOilPct": 27.5,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 5.5,
+      "dominantDriver": "Winter storms, remote grid"
+    },
+    "necEdition": "2020",
+    "licensingNote": "State electrical administrator/certificate of fitness \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901987+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "hi": {
+    "marketOverview": "Hawaii (Pacific islands) is a propane or electric first standby market. Utility gas heats only 3.7% of homes (ACS 2024). Expect propane tank sizing and refill logistics, or an electric-first conversation, more often than a simple gas tap. In 2024, Hawaii electricity customers averaged 5.3 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: island grid, wind, volcanic. This directory lists 24 researched installers with website generator signal (13 with a dedicated generator page, 2 with repeated signal, 9 with at least one clear mention). That is a very thin market by national listing volume, ranking #50 of 50. Top city clusters in the directory: Honolulu (7), Hilo (3), Kailua-Kona (2), Princeville (2).",
+    "costContext": "Budget for propane tank, pad, and refill logistics in addition to the electrical package; gas-line savings rarely apply. NEC edition in effect in this research pass (verified as of August 2026): 2020. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Hawaii has almost no utility-gas heating (3.7%). Island logistics, limited installer density, and electric-dominant housing change both fuel and lead-time conversations versus mainland gas markets. Use the 24 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 3.7,
+      "propanePct": 2.0,
+      "electricPct": 44.4,
+      "fuelOilPct": 0.1,
+      "bucket": "propane-or-electric-first"
+    },
+    "outage": {
+      "saidi2024Hours": 5.3,
+      "dominantDriver": "Island grid, wind, volcanic"
+    },
+    "necEdition": "2020",
+    "licensingNote": "State electrician licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901994+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "id": {
+    "marketOverview": "Idaho (Intermountain West) is a mixed standby market. Fuel mix is split: utility gas 52.6%, electric 35.1%, propane 5.2% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Idaho electricity customers averaged 3.9 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: winter storms, wildfire. This directory lists 117 researched installers with website generator signal (75 with a dedicated generator page, 11 with repeated signal, 31 with at least one clear mention). That is a moderate market by national listing volume, ranking #31 of 50. Top city clusters in the directory: Boise (9), Hayden (7), Coeur d'Alene (6), Post Falls (5).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 117 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 52.6,
+      "propanePct": 5.2,
+      "electricPct": 35.1,
+      "fuelOilPct": 0.9,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 3.9,
+      "dominantDriver": "Winter storms, wildfire"
+    },
+    "necEdition": "2023",
+    "licensingNote": "State Division of Building Safety licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.901999+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "mt": {
+    "marketOverview": "Montana (Northern Rockies) is a mixed standby market. Fuel mix is split: utility gas 49.9%, electric 28.4%, propane 13.7% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Montana electricity customers averaged 5.9 hours without power (near the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: winter storms, wind. This directory lists 68 researched installers with website generator signal (38 with a dedicated generator page, 4 with repeated signal, 26 with at least one clear mention). That is a moderate market by national listing volume, ranking #38 of 50. Top city clusters in the directory: Kalispell (9), Missoula (6), Bozeman (4), Belgrade (4).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020 + MT amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 68 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 49.9,
+      "propanePct": 13.7,
+      "electricPct": 28.4,
+      "fuelOilPct": 0.6,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 5.9,
+      "dominantDriver": "Winter storms, wind"
+    },
+    "necEdition": "2020 + MT amend.",
+    "licensingNote": "State electrical board licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902004+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "wy": {
+    "marketOverview": "Wyoming (Northern Rockies) is a natural gas first standby market. Heating fuel leans natural gas (59.1% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (10.3%). In 2024, Wyoming electricity customers averaged 2.3 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: blizzards, extreme wind. This directory lists 28 researched installers with website generator signal (14 with a dedicated generator page, 3 with repeated signal, 11 with at least one clear mention). That is a very thin market by national listing volume, ranking #49 of 50. Top city clusters in the directory: Cheyenne (5), Gillette (4), Sheridan (3), Powell (2).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2026. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 28 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 59.1,
+      "propanePct": 10.3,
+      "electricPct": 24.2,
+      "fuelOilPct": 0.1,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 2.3,
+      "dominantDriver": "Blizzards, extreme wind"
+    },
+    "necEdition": "2026",
+    "licensingNote": "State Electrical Board \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902010+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "nd": {
+    "marketOverview": "North Dakota (Northern Plains) is a mixed standby market. Fuel mix is split: utility gas 39.8%, electric 41.0%, propane 13.6% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, North Dakota electricity customers averaged 1.7 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: blizzards, ice. This directory lists 32 researched installers with website generator signal (18 with a dedicated generator page, 3 with repeated signal, 11 with at least one clear mention). That is a thin market by national listing volume, ranking #48 of 50. Top city clusters in the directory: Fargo (4), Bismarck (3), Grafton (3), West Fargo (3).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 32 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 39.8,
+      "propanePct": 13.6,
+      "electricPct": 41.0,
+      "fuelOilPct": 2.0,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 1.7,
+      "dominantDriver": "Blizzards, ice"
+    },
+    "necEdition": "2023",
+    "licensingNote": "State Electrical Board \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902016+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "sd": {
+    "marketOverview": "South Dakota (Northern Plains) is a mixed standby market. Fuel mix is split: utility gas 48.8%, electric 31.6%, propane 15.7% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, South Dakota electricity customers averaged 1.4 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: blizzards, ice. This directory lists 42 researched installers with website generator signal (27 with a dedicated generator page, 2 with repeated signal, 13 with at least one clear mention). That is a thin market by national listing volume, ranking #44 of 50. Top city clusters in the directory: Rapid City (8), Aberdeen (3), Sioux Falls (2), North Sioux City (2).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023 + SD amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 42 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 48.8,
+      "propanePct": 15.7,
+      "electricPct": 31.6,
+      "fuelOilPct": 0.9,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 1.4,
+      "dominantDriver": "Blizzards, ice"
+    },
+    "necEdition": "2023 + SD amend.",
+    "licensingNote": "State Electrical Commission \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902022+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ne": {
+    "marketOverview": "Nebraska (Great Plains) is a natural gas first standby market. Heating fuel leans natural gas (58.7% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (7.4%). In 2024, Nebraska electricity customers averaged 10.7 hours without power (above the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: severe/derecho, ice. This directory lists 50 researched installers with website generator signal (36 with a dedicated generator page, 0 with repeated signal, 14 with at least one clear mention). That is a thin market by national listing volume, ranking #41 of 50. Top city clusters in the directory: Omaha (15), Lincoln (4), Gretna (2), North Platte (1).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Nebraska's 2024 SAIDI was 10.7 hours, high for a Plains state with relatively few long-run major-outage counts. Rural feeder distance and installer density matter as much as the headline storm type. Use the 50 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 58.7,
+      "propanePct": 7.4,
+      "electricPct": 31.8,
+      "fuelOilPct": 0.3,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 10.7,
+      "dominantDriver": "Severe/derecho, ice"
+    },
+    "necEdition": "2023",
+    "licensingNote": "State Electrical Division licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902026+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ks": {
+    "marketOverview": "Kansas (Great Plains) is a natural gas first standby market. Heating fuel leans natural gas (63.2% of occupied homes on utility gas, ACS 2024), so many installs start with meter capacity and gas-line sizing rather than a new tank. Propane still shows up in rural counties (7.9%). In 2024, Kansas electricity customers averaged 4.8 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice storms, severe/tornado. This directory lists 84 researched installers with website generator signal (59 with a dedicated generator page, 5 with repeated signal, 20 with at least one clear mention). That is a moderate market by national listing volume, ranking #36 of 50. Top city clusters in the directory: Wichita (6), Topeka (4), Lawrence (4), Olathe (3).",
+    "costContext": "All-in price usually hinges on electrical scope, transfer equipment, and gas-line/meter work more than a tank package. NEC edition in effect in this research pass (verified as of August 2026): None statewide (local). We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Kansas licensing moves to the State Fire Marshal on July 1, 2027. Until then, electrician licensing is local. Write that date into your checklist rather than assuming a statewide card exists today. Use the 84 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 63.2,
+      "propanePct": 7.9,
+      "electricPct": 26.9,
+      "fuelOilPct": 0.2,
+      "bucket": "natural-gas-first"
+    },
+    "outage": {
+      "saidi2024Hours": 4.8,
+      "dominantDriver": "Ice storms, severe/tornado"
+    },
+    "necEdition": "None statewide (local)",
+    "licensingNote": "Local licensing until 7/1/2027, then State Fire Marshal",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902031+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ct": {
+    "marketOverview": "Connecticut (Northeast) is a mixed standby market. Fuel oil still heats 35.0% of homes and utility gas only 36.2% (ACS 2024), so a standby install often forces a new fuel decision, usually propane (5.7% already heat that way). In 2024, Connecticut electricity customers averaged 2.6 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: nor'easters, tropical remnants, tree fall. This directory lists 256 researched installers with website generator signal (172 with a dedicated generator page, 26 with repeated signal, 58 with at least one clear mention). That is a solid market by national listing volume, ranking #14 of 50. Top city clusters in the directory: Stamford (9), Stratford (7), Norwalk (7), Plainville (5).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2020 + CT amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 256 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 36.2,
+      "propanePct": 5.7,
+      "electricPct": 20.2,
+      "fuelOilPct": 35.0,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 2.6,
+      "dominantDriver": "Nor'easters, tropical remnants, tree fall"
+    },
+    "necEdition": "2020 + CT amend.",
+    "licensingNote": "State DCP electrical license (E-1/E-2) \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902037+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ma": {
+    "marketOverview": "Massachusetts (New England) is a mixed standby market. Fuel oil still heats 20.2% of homes and utility gas only 52.0% (ACS 2024), so a standby install often forces a new fuel decision, usually propane (4.4% already heat that way). In 2024, Massachusetts electricity customers averaged 1.7 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: nor'easters, coastal wind. This directory lists 302 researched installers with website generator signal (222 with a dedicated generator page, 19 with repeated signal, 61 with at least one clear mention). That is a solid market by national listing volume, ranking #9 of 50. Top city clusters in the directory: Plymouth (6), Chelmsford (4), Littleton (4), Westport (4).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2026. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 302 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 52.0,
+      "propanePct": 4.4,
+      "electricPct": 20.5,
+      "fuelOilPct": 20.2,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 1.7,
+      "dominantDriver": "Nor'easters, coastal wind"
+    },
+    "necEdition": "2026",
+    "licensingNote": "Board of State Examiners of Electricians \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902042+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "me": {
+    "marketOverview": "Maine (Northern New England) is a propane or electric first standby market. Fuel oil still heats 50.3% of homes and utility gas only 8.3% (ACS 2024), so a standby install often forces a new fuel decision, usually propane (16.0% already heat that way). In 2024, Maine electricity customers averaged 29.1 hours without power (more than double the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: nor'easters, ice, tree fall. This directory lists 137 researched installers with website generator signal (88 with a dedicated generator page, 17 with repeated signal, 32 with at least one clear mention). That is a moderate market by national listing volume, ranking #29 of 50. Top city clusters in the directory: Westbrook (5), Portland (5), Windham (4), Saco (4).",
+    "costContext": "Budget for propane tank, pad, and refill logistics in addition to the electrical package; gas-line savings rarely apply. NEC edition in effect in this research pass (verified as of August 2026): 2026. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Maine posted 29.1 average outage hours in 2024 with 3.64 interruptions, more outage time than Florida, North Carolina, or Texas that same year. EIA ties much of that to trees on distribution lines. With 50.3% of homes still heating on fuel oil and only 8.3% on utility gas, most standby installs start with a propane tank decision rather than a gas-line tap. Use the 137 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 8.3,
+      "propanePct": 16.0,
+      "electricPct": 13.5,
+      "fuelOilPct": 50.3,
+      "bucket": "propane-or-electric-first"
+    },
+    "outage": {
+      "saidi2024Hours": 29.1,
+      "dominantDriver": "Nor'easters, ice, tree fall"
+    },
+    "necEdition": "2026",
+    "licensingNote": "State Electricians' Examining Board \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902047+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "nh": {
+    "marketOverview": "New Hampshire (Northern New England) is a propane or electric first standby market. Fuel oil still heats 37.0% of homes and utility gas only 22.2% (ACS 2024), so a standby install often forces a new fuel decision, usually propane (20.4% already heat that way). In 2024, New Hampshire electricity customers averaged 15.4 hours without power (above the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice, nor'easters, tree fall. This directory lists 147 researched installers with website generator signal (89 with a dedicated generator page, 13 with repeated signal, 45 with at least one clear mention). That is a moderate market by national listing volume, ranking #28 of 50. Top city clusters in the directory: Nashua (8), Derry (5), Brentwood (4), Hudson (4).",
+    "costContext": "Budget for propane tank, pad, and refill logistics in addition to the electrical package; gas-line savings rarely apply. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "New Hampshire combines high outage duration (15.4 hours SAIDI in 2024) with a propane-and-oil heating mix (20.4% propane, 37.0% fuel oil). Tank sizing and refill logistics usually matter more than meter capacity. Use the 147 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 22.2,
+      "propanePct": 20.4,
+      "electricPct": 11.9,
+      "fuelOilPct": 37.0,
+      "bucket": "propane-or-electric-first"
+    },
+    "outage": {
+      "saidi2024Hours": 15.4,
+      "dominantDriver": "Ice, nor'easters, tree fall"
+    },
+    "necEdition": "2023",
+    "licensingNote": "State Electricians' Board \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902052+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "vt": {
+    "marketOverview": "Vermont (Northern New England) is a propane or electric first standby market. Fuel oil still heats 35.5% of homes and utility gas only 19.8% (ACS 2024), so a standby install often forces a new fuel decision, usually propane (19.8% already heat that way). In 2024, Vermont electricity customers averaged 11.6 hours without power (above the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: ice, nor'easters, tree fall. This directory lists 45 researched installers with website generator signal (29 with a dedicated generator page, 6 with repeated signal, 10 with at least one clear mention). That is a thin market by national listing volume, ranking #43 of 50. Top city clusters in the directory: Rutland (3), Middlebury (3), Williston (2), South Burlington (2).",
+    "costContext": "Budget for propane tank, pad, and refill logistics in addition to the electrical package; gas-line savings rarely apply. NEC edition in effect in this research pass (verified as of August 2026): 2020 + VT amend.. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Vermont's heating mix is split across gas, propane, and fuel oil (about 19.8% / 19.8% / 35.5%), with chronic tree-related outages on rural lines. Confirm fuel path and runtime needs before comparing brands. Use the 45 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 19.8,
+      "propanePct": 19.8,
+      "electricPct": 11.8,
+      "fuelOilPct": 35.5,
+      "bucket": "propane-or-electric-first"
+    },
+    "outage": {
+      "saidi2024Hours": 11.6,
+      "dominantDriver": "Ice, nor'easters, tree fall"
+    },
+    "necEdition": "2020 + VT amend.",
+    "licensingNote": "Electricians' Licensing Board \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902057+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "ri": {
+    "marketOverview": "Rhode Island (New England) is a mixed standby market. Fuel oil still heats 25.4% of homes and utility gas only 53.4% (ACS 2024), so a standby install often forces a new fuel decision, usually propane (4.9% already heat that way). In 2024, Rhode Island electricity customers averaged 1.7 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: coastal storms, nor'easters. This directory lists 55 researched installers with website generator signal (33 with a dedicated generator page, 4 with repeated signal, 18 with at least one clear mention). That is a thin market by national listing volume, ranking #40 of 50. Top city clusters in the directory: Westerly (5), Warwick (4), Pawtucket (4), Providence (4).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 55 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 53.4,
+      "propanePct": 4.9,
+      "electricPct": 14.2,
+      "fuelOilPct": 25.4,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 1.7,
+      "dominantDriver": "Coastal storms, nor'easters"
+    },
+    "necEdition": "2023",
+    "licensingNote": "DBR electrical licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902061+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  },
+  "de": {
+    "marketOverview": "Delaware (Mid-Atlantic) is a mixed standby market. Fuel mix is split: utility gas 41.3%, electric 39.1%, propane 10.4% (ACS 2024). Metro jobs often look like natural-gas installs; rural counties more often need propane. In 2024, Delaware electricity customers averaged 1.9 hours without power (well below the 10.2-hour U.S. average; EIA Electric Power Annual Table 11.3). Dominant drivers in this research pass: coastal storms, severe. This directory lists 49 researched installers with website generator signal (36 with a dedicated generator page, 3 with repeated signal, 10 with at least one clear mention). That is a thin market by national listing volume, ranking #42 of 50. Top city clusters in the directory: Wilmington (8), Millsboro (4), Townsend (4), Middletown (3).",
+    "costContext": "Quotes diverge with fuel path: gas-line work in town, tank packages outside it. Compare itemized scopes, not headline brand prices. NEC edition in effect in this research pass (verified as of August 2026): 2023. We do not publish fabricated statewide average install prices.",
+    "buyerNote": "Confirm electrical (and gas/propane, if used) credentials with the local AHJ; statewide licensing scope for residential standby work was not fully verified in this research pass. Ask who pulls the electrical and fuel permits, how they size the unit, and how warranty service works after install. Use the 49 researched listings below as a starting point, not an endorsement. Verify licensing, insurance, references, and recent standby work yourself.",
+    "fuel": {
+      "utilityGasPct": 41.3,
+      "propanePct": 10.4,
+      "electricPct": 39.1,
+      "fuelOilPct": 6.8,
+      "bucket": "mixed"
+    },
+    "outage": {
+      "saidi2024Hours": 1.9,
+      "dominantDriver": "Coastal storms, severe"
+    },
+    "necEdition": "2023",
+    "licensingNote": "State electrician licensing \u2014 unverified",
+    "verifiedAsOf": "2026-08-07",
+    "generatedAt": "2026-08-07T18:21:56.902066+00:00",
+    "source": "docs/research/10-state-and-regional-variation.md + lib/data/states.json"
+  }
+}
