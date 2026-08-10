@@ -35,7 +35,7 @@ export function seoDescription(value: string): string {
 
 /**
  * Long-form guides opt into `og:type=article`. Directory and index pages
- * stay `website` — they are collections, not articles.
+ * stay `website`; they are collections, not articles.
  */
 export function pageMetadata({
   title,

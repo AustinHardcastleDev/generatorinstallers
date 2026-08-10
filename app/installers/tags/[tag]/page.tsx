@@ -103,7 +103,7 @@ export default async function DirectoryTagPage({ params }: Props) {
             <p>
               <strong className="text-[var(--color-ink)]">Installer.</strong>{' '}
               Need the electrical, fuel, and transfer-switch work? Confirm load
-              calc, permits, and recent Generac installs — not just a logo on
+              calc, permits, and recent Generac installs, not just a logo on
               the site.
             </p>
             <p>

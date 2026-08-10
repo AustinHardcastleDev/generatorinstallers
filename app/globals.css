@@ -109,7 +109,7 @@ body {
 }
 
 /* ============================================================
-   Typography classes — the scale, named
+   Typography classes: the scale, named
    ============================================================ */
 
 .t-display {
@@ -167,7 +167,7 @@ body {
   color: var(--color-body);
 }
 
-/* Section label as a yellow chip — the accent's primary job. */
+/* Section label as a yellow chip: the accent's primary job. */
 .eyebrow {
   display: inline-block;
   padding: 5px 9px 4px;
@@ -181,7 +181,7 @@ body {
   letter-spacing: 0.14em;
 }
 
-/* Same type, no chip — for dark bands and dense stacks. */
+/* Same type, no chip: for dark bands and dense stacks. */
 .eyebrow-bare {
   display: inline-block;
   color: var(--color-muted);
@@ -324,7 +324,7 @@ a.link:hover {
 }
 
 /* ============================================================
-   Stat cards — first card in a group carries the accent rule
+   Stat cards: first card in a group carries the accent rule
    ============================================================ */
 
 .stat-card {
@@ -396,7 +396,7 @@ a.link:hover {
 }
 
 /* ============================================================
-   List rows — left rule encodes sponsorship, then signal tier
+   List rows: left rule encodes sponsorship, then signal tier
    ============================================================ */
 
 .row {
@@ -436,7 +436,7 @@ a.link:hover {
   isolation: isolate;
 }
 
-/* Tint the tiles only — pins keep full saturation. */
+/* Tint the tiles only: pins keep full saturation. */
 .gil-map .leaflet-tile-pane {
   filter: grayscale(0.88) contrast(0.92) brightness(1.06);
 }

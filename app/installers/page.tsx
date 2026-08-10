@@ -152,7 +152,7 @@ export default async function InstallersIndexPage({ searchParams }: Props) {
           <p className="t-body-sm mt-3 max-w-2xl">
             Already know which brand you want? Filter by brands mentioned on
             installer websites. The Generac page covers dealers, installers, and
-            service from website signal — not dealer certification.
+            service from website signal, not dealer certification.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             {brands.map(({ brand, count }) => (

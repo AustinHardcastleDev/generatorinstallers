@@ -238,7 +238,7 @@ export function getTagMetaDescription(
 ): string {
   const where = stateName ? ` in ${stateName}` : ' across the national directory'
   if (tag.slug === 'generac') {
-    return `${count.toLocaleString()} researched Generac dealers, installers, and service shops${where}. Website brand signal only — confirm authorized dealer status and warranty path directly.`
+    return `${count.toLocaleString()} researched Generac dealers, installers, and service shops${where}. Website brand signal only; confirm authorized dealer status and warranty path directly.`
   }
   if (tag.slug === 'whole-house') {
     return `${count.toLocaleString()} researched installers${where} with whole-house or standby generator signal. Sorted by website signal and generator-specific reviews.`
@@ -279,9 +279,9 @@ export function getTagIntro(
   const countLabel = count.toLocaleString()
   if (tag.slug === 'generac') {
     if (stateName) {
-      return `${countLabel} researched shops in ${stateName} whose websites show Generac signal — useful whether you are looking for a Generac dealer, installer, or service tech. Website mention is not the same as authorized dealer status; confirm training, warranty registration, and service coverage with Generac and the shop.`
+      return `${countLabel} researched shops in ${stateName} whose websites show Generac signal, useful whether you are looking for a Generac dealer, installer, or service tech. Website mention is not the same as authorized dealer status; confirm training, warranty registration, and service coverage with Generac and the shop.`
     }
-    return `${countLabel} of ${totalNational.toLocaleString()} researched installers whose websites show Generac signal. Buyers usually search for Generac dealers, installers, or service near them — this list is a website-signal shortlist for all three. It is not an authorized-dealer directory. Confirm dealer status, warranty path, and recent installs directly.`
+    return `${countLabel} of ${totalNational.toLocaleString()} researched installers whose websites show Generac signal. Buyers usually search for Generac dealers, installers, or service near them. This list is a website-signal shortlist for all three. It is not an authorized-dealer directory. Confirm dealer status, warranty path, and recent installs directly.`
   }
   if (tag.slug === 'whole-house') {
     const scope = stateName
@@ -339,7 +339,7 @@ export function getTagFaqs(
       },
       {
         q: 'Is this different from portable generator shops?',
-        a: 'Yes. This filter favors standby / whole-house language. Confirm they do automatic transfer switches, fuel connections, and permitted installs — not only portable units.',
+        a: 'Yes. This filter favors standby / whole-house language. Confirm they do automatic transfer switches, fuel connections, and permitted installs, not only portable units.',
       },
       {
         q: 'Are these recommendations?',
@@ -352,7 +352,7 @@ export function getTagFaqs(
     return [
       {
         q: 'Does this mean they offer a maintenance plan?',
-        a: 'Not automatically. These shops have generator-scoped review tags for maintenance, service, or warranty support — not generic business reviews alone. Ask what contracts, response times, and parts access look like for your unit.',
+        a: 'Not automatically. These shops have generator-scoped review tags for maintenance, service, or warranty support, not generic business reviews alone. Ask what contracts, response times, and parts access look like for your unit.',
       },
       {
         q: 'Can I use this list if I already own a generator?',

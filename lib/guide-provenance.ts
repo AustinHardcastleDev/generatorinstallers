@@ -18,19 +18,19 @@ export type GuideSource = {
 /** Default citations used across cost / sizing / process guides. */
 export const DEFAULT_GUIDE_SOURCES: GuideSource[] = [
   {
-    label: 'Consumer Reports — home standby generator buying guidance',
+    label: 'Consumer Reports: home standby generator buying guidance',
     href: 'https://www.consumerreports.org/appliances/generators/',
   },
   {
-    label: 'Generac — home standby installed-cost guidance',
+    label: 'Generac: home standby installed-cost guidance',
     href: 'https://www.generac.com/',
   },
   {
-    label: 'NFPA 37 — installation of stationary combustion engines',
+    label: 'NFPA 37: installation of stationary combustion engines',
     href: 'https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=37',
   },
   {
-    label: 'NEC Article 702 — optional standby systems',
+    label: 'NEC Article 702: optional standby systems',
     href: 'https://www.nfpa.org/codes-and-standards/all-codes-and-standards/list-of-codes-and-standards/detail?code=70',
   },
 ]

@@ -8,7 +8,7 @@ import { LIST_BASE, SITE } from '@/lib/site'
 
 export const dynamic = 'force-static'
 
-/** Editorial/content date for guides and core static pages — not a build stamp. */
+/** Editorial/content date for guides and core static pages, not a build stamp. */
 const CONTENT_UPDATED = new Date(GUIDE_DATE_MODIFIED)
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -50,7 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }))
 
-  // Directory URLs omit lastmod — a shared build timestamp is not a real update date.
+  // Directory URLs omit lastmod; a shared build timestamp is not a real update date.
   const stateRoutes: MetadataRoute.Sitemap = Object.keys(states).map((slug) => ({
     url: `${base}${LIST_BASE}/${slug}`,
     changeFrequency: 'weekly' as const,

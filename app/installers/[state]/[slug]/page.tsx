@@ -417,7 +417,7 @@ function LocalBusinessJsonLd({
     }
   }
   // Google review totals stay in the UI with attribution; omit AggregateRating
-  // from JSON-LD — these are not first-party reviews hosted by this site.
+  // from JSON-LD; these are not first-party reviews hosted by this site.
   if (installer.categoryName) {
     json.knowsAbout = [
       installer.categoryName,

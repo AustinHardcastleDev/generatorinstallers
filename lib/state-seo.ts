@@ -24,5 +24,5 @@ export function getStateMetaDescription(state: StateMeta): string {
     state.explicitCount === 1
       ? '1 dedicated generator page'
       : `${state.explicitCount} dedicated generator pages`
-  return `Compare ${n} ${state.name} standby generator installers. ${pageProof}. Website signal research — not paid rankings.`
+  return `Compare ${n} ${state.name} standby generator installers. ${pageProof}. Website signal research, not paid rankings.`
 }

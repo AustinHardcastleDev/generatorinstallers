@@ -6,10 +6,8 @@ import {
   states,
   TOTAL_INSTALLERS,
   TOTAL_STATES,
-  sortInstallersBySignal,
   toInstallerListItem,
 } from '@/lib/installers'
-import { InstallerCard } from '@/components/InstallerCard'
 import { InstallerLinkList } from '@/components/InstallerLinkList'
 import { FAQ, FAQJsonLd, type FAQItem } from '@/components/FAQ'
 import { SITE, LIST_BASE } from '@/lib/site'
@@ -21,11 +19,11 @@ import { CountChip } from '@/components/CountChip'
 import { GUIDES } from '@/lib/guides'
 import { Container, SectionHeading } from '@/components/Section'
 import { HeroGeneratorPhoto } from '@/components/GeneratorPhotos'
-import { pickHomepageDiscoverySample } from '@/lib/internal-links'
+import { getHomepageDiscoverySample } from '@/lib/homepage-discovery'
 import { brandCounts } from '@/lib/brands'
 import { intentTagCounts } from '@/lib/directory-tags'
 
-const discoverySample = pickHomepageDiscoverySample()
+const discoverySample = getHomepageDiscoverySample()
 
 export const metadata = pageMetadata({
   title: 'Generator Installation Directory | Standby Generator Installers',
@@ -60,8 +58,6 @@ const FAQS: FAQItem[] = [
   },
 ]
 
-const featured = sortInstallersBySignal(installers).slice(0, 6)
-
 export default function HomePage() {
   return (
     <>
@@ -71,19 +67,18 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 pt-8 sm:px-6 md:pt-12 lg:px-10">
         <ZipSearchForm compact />
       </section>
-      <StateGrid />
-      <FeaturedInstallers />
-      <DiscoveryInstallers />
       <BrandDiscovery />
-      <HowItWorks />
       <BuyerGuides />
       <section className="mx-auto max-w-6xl px-4 pt-12 sm:px-6 md:pt-16 lg:px-10">
         <FinancingCta />
       </section>
+      <StateGrid />
+      <HowItWorks />
       <PullQuote />
       <Container>
         <FAQ items={FAQS} />
       </Container>
+      <DiscoveryInstallers />
       <ClosingCta />
     </>
   )
@@ -110,12 +105,12 @@ function Hero() {
             Generator installation, from someone who&apos;s done it before.
           </h1>
           <p className="t-body mt-8 max-w-2xl text-[19px]">
-            Standby generator installation hides behind a dozen other job
+            Whole house generator installation hides behind a dozen other job
             titles: electrician, HVAC shop, propane dealer. We checked
             installer websites in {TOTAL_STATES} states (
-            {TOTAL_INSTALLERS.toLocaleString()} listings) for real generator
-            installation experience, whatever brand they work with, and kept
-            the list independent. No broker layer, no lead resale. Just a
+            {TOTAL_INSTALLERS.toLocaleString()} listings) for real standby and
+            whole-home generator experience, whatever brand they work with, and
+            kept the list independent. No broker layer, no lead resale. Just a
             better place to start.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
@@ -199,40 +194,13 @@ function StateGrid() {
   )
 }
 
-function FeaturedInstallers() {
-  return (
-    <section className="mx-auto max-w-6xl px-4 pt-16 sm:px-6 md:pt-24 lg:px-10">
-      <SectionHeading
-        eyebrow="National directory"
-        title="Who to call first"
-        subtitle="Sorted by generator-specific review count across all 50 states. Featured rows are labeled. Not an endorsement, just a better starting point."
-        meta={`${featured.length} featured`}
-      />
-      <div className="mt-10 grid gap-4">
-        {featured.map((installer) => (
-          <InstallerCard
-            key={installer.id}
-            installer={toInstallerListItem(installer)}
-            variant="featured"
-          />
-        ))}
-      </div>
-      <div className="mt-8">
-        <ButtonLink href={LIST_BASE} variant="secondary">
-          Browse all states →
-        </ButtonLink>
-      </div>
-    </section>
-  )
-}
-
 function DiscoveryInstallers() {
   return (
     <InstallerLinkList
       installers={discoverySample.map(toInstallerListItem)}
-      title="One installer per state · rotates weekly"
-      description="Beyond the featured cards above, this crawl-friendly index links one researched profile from every state. The set rotates weekly so more listings get direct homepage equity over time."
-      eyebrow="Directory discovery"
+      title="A few more places to start"
+      description="One researched installer from each state: a quick cross-country sample if you want to browse beyond your home market. We refresh this set weekly."
+      eyebrow="Around the country"
       className="mx-auto max-w-6xl px-4 pt-16 sm:px-6 md:pt-24 lg:px-10"
       showConfidence={false}
     />
@@ -271,7 +239,7 @@ function BrandDiscovery() {
           <SectionHeading
             eyebrow="Optional brand filter"
             title="Already know the brand?"
-            subtitle="The directory is brand-agnostic. Generac buyers often search for dealers, installers, or service — that hub covers all three from website signal."
+            subtitle="The directory is brand-agnostic. Generac buyers often search for dealers, installers, or service. That hub covers all three from website signal."
           />
           <div className="mt-8 flex flex-wrap gap-3">
             {brands.map(({ brand, count }) => (

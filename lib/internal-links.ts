@@ -99,14 +99,19 @@ export function stateBrandTagQualifies(
   return tag ? stateTagQualifies(stateSlug, tag) : false
 }
 
+/** ISO-week-ish bucket used to rotate the homepage one-per-state sample. */
+export function homepageDiscoveryWeekKey(now = Date.now()): number {
+  return Math.floor(now / (7 * 24 * 60 * 60 * 1000))
+}
+
 /**
- * One installer per state, rotated weekly for crawl discovery without
- * bloating the homepage.
+ * One installer per state for the homepage sample. Pass an explicit weekKey
+ * when writing the committed snapshot (CI) so the set is deterministic.
  */
 export function pickHomepageDiscoverySample(
   source = installers,
+  weekKey: number = homepageDiscoveryWeekKey(),
 ): Installer[] {
-  const week = Math.floor(Date.now() / (7 * 24 * 60 * 60 * 1000))
   const stateSlugs = [...new Set(source.map((installer) => installer.stateSlug))].sort()
 
   return stateSlugs
@@ -128,7 +133,7 @@ export function pickHomepageDiscoverySample(
           )
         })
       if (stateInstallers.length === 0) return null
-      return stateInstallers[week % stateInstallers.length]
+      return stateInstallers[weekKey % stateInstallers.length]
     })
     .filter((installer): installer is Installer => installer !== null)
 }

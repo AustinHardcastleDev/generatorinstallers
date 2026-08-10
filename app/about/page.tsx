@@ -91,7 +91,7 @@ export default function AboutPage() {
           checked in <strong>August 2026</strong>. Profile copy may paraphrase
           public website language; credential claims such as licensed,
           certified, or authorized dealer status are not independently verified
-          here — confirm them directly with the shop and the manufacturer.
+          here. Confirm them directly with the shop and the manufacturer.
         </p>
 
         <h2>What we&apos;re not</h2>

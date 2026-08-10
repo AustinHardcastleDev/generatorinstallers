@@ -1,6 +1,6 @@
 /**
  * Client-safe brand metadata. Must not import installer JSON or other
- * server-only data modules — FilteredInstallers and other client components
+ * server-only data modules. FilteredInstallers and other client components
  * import from here.
  */
 
@@ -28,7 +28,7 @@ export const BRAND_TAGS: BrandTag[] = [
     label: 'Generac',
     shortLabel: 'Generac',
     description:
-      'Shops whose websites show Generac signal — dealers, installers, and service techs. Website mention is not an authorized-dealer certification check.',
+      'Shops whose websites show Generac signal: dealers, installers, and service techs. Website mention is not an authorized-dealer certification check.',
   },
   {
     slug: 'kohler',

@@ -105,7 +105,7 @@ export default async function StateDirectoryTagPage({ params }: Props) {
         {tag.slug === 'generac' ? (
           <p className="t-body-sm mt-4 max-w-3xl">
             Use this {s.name} shortlist whether you need a Generac dealer,
-            installer, or service shop — then verify authorization and scope
+            installer, or service shop. Then verify authorization and scope
             directly.
           </p>
         ) : null}
