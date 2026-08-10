@@ -34,6 +34,10 @@ export const metadata: Metadata = {
     images: [OG_IMAGE.url],
   },
   robots: { index: true, follow: true },
+  other: {
+    'ahrefs-site-verification':
+      '0cb1693e4567a41fefb6db906b7846dfa7bd9b967bc9f5573be3a6c2c2e7de2f',
+  },
 }
 
 export default function RootLayout({
