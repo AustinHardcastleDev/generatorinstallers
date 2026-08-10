@@ -6,9 +6,13 @@ import {
   getMetro,
   getMetrosByState,
   getInstallersNearMetro,
-  countInstallersNearMetro,
   METRO_RADIUS_MILES,
 } from '@/lib/metros'
+import {
+  getMetroEditorial,
+  getMetroMetaDescription,
+  getMetroSeoTitle,
+} from '@/lib/metro-editorial'
 import {
   getStateBySlug,
   toInstallerListItem,
@@ -34,10 +38,11 @@ export async function generateMetadata({ params }: Props) {
   const { state, metro } = await params
   const m = getMetro(state, metro)
   if (!m) return {}
-  const within = countInstallersNearMetro(m)
+  const nearby = getInstallersNearMetro(m)
+  const explicit = nearby.filter((i) => i.generatorConfidence === 'explicit').length
   return pageMetadata({
-    title: `Generator Installation Near ${m.name}`,
-    description: `${within} standby generator installers within ${METRO_RADIUS_MILES} miles of ${m.name}, ${m.stateAbbr}, sorted by distance and generator-specific review count.`,
+    title: getMetroSeoTitle(m, nearby.length),
+    description: getMetroMetaDescription(m, nearby.length, explicit),
     path: `${LIST_BASE}/${m.stateSlug}/metros/${m.slug}`,
   })
 }
@@ -49,6 +54,7 @@ export default async function MetroPage({ params }: Props) {
 
   const s = getStateBySlug(m.stateSlug)
   const nearby = getInstallersNearMetro(m)
+  const editorial = getMetroEditorial(m, nearby)
   const otherMetros = getMetrosByState(m.stateSlug).filter((x) => x.slug !== m.slug)
   const explicit = nearby.filter((i) => i.generatorConfidence === 'explicit')
   const high = nearby.filter((i) => i.generatorConfidence === 'high')
@@ -111,9 +117,7 @@ export default async function MetroPage({ params }: Props) {
             installers
           </p>
           <p className="t-body mt-6 max-w-[42rem] text-[18px]">
-            {nearby.length} standby generator installers with offices within{' '}
-            {METRO_RADIUS_MILES} miles of {m.name}, whatever brand they work
-            with. Sorted by distance, then generator-specific review count.
+            {editorial.intro}
           </p>
           <StatCardGroup
             className="mt-10"
@@ -127,6 +131,22 @@ export default async function MetroPage({ params }: Props) {
               { label: `Other ${m.stateAbbr} metros`, value: otherMetros.length },
             ]}
           />
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 pt-10 sm:px-6 md:pt-12 lg:px-10">
+        <div className="panel p-5 sm:p-6 md:p-8">
+          <span className="eyebrow">Metro market notes</span>
+          <h2 className="t-heading mt-4">Fuel, outages, and codes near {m.name}</h2>
+          <p className="t-body-sm mt-2 max-w-3xl">{editorial.marketNote}</p>
+          {editorial.cityClusters.length > 0 ? (
+            <p className="meta meta-soft mt-6">
+              Top city clusters in this radius:{' '}
+              {editorial.cityClusters
+                .map((row) => `${row.city} (${row.count})`)
+                .join(' · ')}
+            </p>
+          ) : null}
         </div>
       </section>
 

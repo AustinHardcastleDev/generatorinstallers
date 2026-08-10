@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "rotate:discovery": "node scripts/rotate-homepage-discovery.mjs"
+    "rotate:discovery": "node scripts/rotate-homepage-discovery.mjs",
+    "editorial:metros": "node scripts/generate-metro-editorial.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
