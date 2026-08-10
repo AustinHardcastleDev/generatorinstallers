@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Archivo } from 'next/font/google'
 import Link from 'next/link'
+import Script from 'next/script'
 import './globals.css'
 import { SITE, NAV, HEADER_NAV, LIST_BASE } from '@/lib/site'
 import { OG_IMAGE } from '@/lib/seo'
@@ -43,6 +44,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={archivo.variable}>
       <body className="min-h-screen flex flex-col">
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="b2joC9DpGjWvDH4gUqg2RA"
+          strategy="afterInteractive"
+        />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />

@@ -4,6 +4,10 @@ import { SITE } from './site'
 const TITLE_LIMIT_BEFORE_BRAND = 50
 const DESCRIPTION_LIMIT = 155
 
+/**
+ * Same generator photo as the homepage hero, cropped to 1200×630 for
+ * iMessage / Open Graph previews.
+ */
 export const OG_IMAGE = {
   url: '/images/og-default.jpg',
   width: 1200,
