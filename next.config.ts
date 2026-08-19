@@ -14,6 +14,30 @@ const nextConfig: NextConfig = {
       },
     ]
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdnimg.co',
+      },
+      {
+        protocol: 'https',
+        hostname: 'outrank.so',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.outrank.so',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.amazonaws.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
+  },
 }
 
 export default nextConfig

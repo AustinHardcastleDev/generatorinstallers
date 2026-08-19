@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { getBlogPosts, isBlogConfigured } from '@/lib/blog'
 import { DIRECTORY_TAGS, getStateDirectoryTags } from '@/lib/directory-tags'
 import { GUIDES } from '@/lib/guides'
 import { GUIDE_DATE_MODIFIED } from '@/lib/guide-provenance'
@@ -11,7 +12,7 @@ export const dynamic = 'force-static'
 /** Editorial/content date for guides and core static pages, not a build stamp. */
 const CONTENT_UPDATED = new Date(GUIDE_DATE_MODIFIED)
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = SITE.url
 
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -84,6 +85,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
+  const blogRoutes: MetadataRoute.Sitemap = isBlogConfigured()
+    ? (await getBlogPosts()).map((post) => ({
+        url: `${base}/blog/${post.slug}`,
+        lastModified: post.updated_at ? new Date(post.updated_at) : CONTENT_UPDATED,
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+      }))
+    : []
+
   return [
     ...staticRoutes,
     ...guideRoutes,
@@ -92,5 +102,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...tagRoutes,
     ...stateTagRoutes,
     ...installerRoutes,
+    ...blogRoutes,
   ]
 }
