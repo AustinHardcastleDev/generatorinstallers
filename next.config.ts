@@ -7,6 +7,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: '/installers/tx/generator-installation',
+        destination: '/installers/tx/gentech-alternative-power-solutions-llc',
+        permanent: true,
+      },
+      {
         source: '/:path*',
         has: [{ type: 'host', value: 'generatorinstallerlist.com' }],
         destination: 'https://www.generatorinstallerlist.com/:path*',
